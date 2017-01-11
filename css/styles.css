@@ -1,0 +1,13 @@
+img.product {
+  max-width: 100%;
+}
+
+.jumbotron {
+  background-color: #b51616;
+}
+
+h1#header {
+  font-size: 90px;
+  text-align: center;
+  font-family: 'Creepster', cursive;
+}

@@ -9,12 +9,13 @@ $(document).ready(function() {
       var numOfKittenJr = $("select#kittenJr").val();
       var numOfKandle = $("select#kandle").val();
 
+      $("#output1").toggle();
       $("#output1").text(numOfSanitizer);
-      $(".output").text(numOfFormula);
-      $(".output").text(numOfPickled);
-      $(".output").text(numOfCollector);
-      $(".output").text(numOfKittenJr);
-      $(".output").text(numOfKandle);
+      $("#output2").text(numOfFormula);
+      $("#output3").text(numOfPickled);
+      $("#output4").text(numOfCollector);
+      $("#output5").text(numOfKittenJr);
+      $("#output6").text(numOfKandle);
   });
 
 });

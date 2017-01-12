@@ -14,3 +14,7 @@ h1#header {
 body {
   background-color: #f0ddbb;
 }
+
+li.receiptItem {
+  display: none;
+}
